@@ -2,7 +2,7 @@
 Compares how many vertices are tansversed in the maze for the mouse to get to the cheese or target vertex using depth first search(DFS) and breadth first search(BFS).
 ## General Information 
 This project utilizes the depth-first search and breadth-first search algorithms. 
-This project, reads a graph from a file, which represent a maze. In this maze, there is a starting 
+This project, reads a graph from a file, which represents a maze. In this maze, there is a starting 
 vertex at which a mouse will start its search for a piece of cheese (located at another vertex).
 Depth-first search and breadth-first search is used to determine the path to the cheese. When each 
 search is executed, the number of undiscovered edges that are used to visit a vertex are to be counted.
@@ -58,7 +58,7 @@ void Graph::BFS(Graph const& graph, int v, vector<bool>& discovered) {
            v = q.front();   // dequeue front node and print it
            q.pop();
            cout << v << "-> ";   // print the current node
-           for (int u : graph.adjList[v]) { // do for every edge v > u
+           for (int u : graph.adjList[v]) { // do for every edge v > u
                if (!discovered[u] && u != cheese) {   // mark it as discovered and enqueue it
                    countBFS++;
                    discovered[u] = true;
@@ -76,11 +76,9 @@ Project is created with
 * Language: C++20
 ## Setup
 To run this project use Microsoft Visual Studio or an IDE that supports C++20 and download the files.
-The  file is located in the Debug Folder and can be changed to different .
-The user will be prompt to enter 
+The Cheese1.txt and Cheese2.txt represent two different mazes. These files should be located in the Debug Folder and can be changed to different values representing vertices of the graph.
 
 **Sample Output**
-
 ![image]()
 ## Status 
 This is a project created by @MadCodes9 :grinning:
