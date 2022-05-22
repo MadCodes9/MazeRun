@@ -1,16 +1,4 @@
 /*
-* Program: MazeRun.cpp
-* Author: Ceiara Madrigal
-* Course: CSCI 230
-* Date: 6/08/2021
-* Description: This project utilizes the depth-first search and breadth-first search algorithms. 
-* This project, reads a graph from a file, which represent a maze. In this maze, there is a starting 
-* vertex at which a mouse will start its search for a piece of cheese (located at another vertex).
-* Depth-first search and breadth-first search is used to determine the path to the cheese. When each 
-* search is executed, the number of undiscovered edges that are used to visit a vertex are to be counted.
-* For depth-first search, the path that is traveled is to be output to the screen and for breadth-first 
-* search, the vertices that are visited during the search are to be output to the screen. Once the 
-* cheese has been reached, the search can stop.
 *
 * I certify that the following code is my own work.
 *
