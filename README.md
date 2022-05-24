@@ -1,5 +1,5 @@
 # MazeRun
-Compares how many vertices are tansversed in the maze for the mouse to get to the cheese or target vertex using depth first search(DFS) and breadth first search(BFS).
+Compares how many vertices are tansversed in the maze for the mouse to get to the cheese or target vertex using depth first search(DFS) and breadth first search(BFS)
 ## General Information 
 This project utilizes the depth-first search and breadth-first search algorithms. 
 This project, reads a graph from a file, which represents a maze. In this maze, there is a starting 
