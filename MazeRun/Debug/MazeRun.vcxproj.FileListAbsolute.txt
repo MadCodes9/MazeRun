@@ -1,0 +1,2 @@
+C:\Users\Jennifer\Desktop\MazeRun\Debug\MazeRun.exe
+C:\Users\Jennifer\Desktop\MazeRun\Debug\MazeRun.pdb
