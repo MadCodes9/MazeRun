@@ -76,7 +76,7 @@ Project is created with
 * Language: C++20
 ## Setup
 To run this project use Microsoft Visual Studio or an IDE that supports C++20 and download the files.
-The Cheese1.txt and Cheese2.txt represent two different mazes. These files should be located in the Debug Folder and can be changed to different values representing vertices of the graph.
+The Cheese1.txt and Cheese2.txt represent two different mazes. These files are located in the Debug Folder and can be changed to different values representing vertices of the graph.
 
 ![Sample Output](https://github.com/MadCodes9/MazeRun/blob/main/Output.pdf)
 ## Status 
